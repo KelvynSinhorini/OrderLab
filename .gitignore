@@ -1,0 +1,22 @@
+# Ignora arquivos/pastas do Visual Studio/VSCode
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Pastas de build .NET
+bin/
+obj/
+
+# Pastas de build Frontend (Angular/React/etc)
+node_modules/
+dist/
+build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*
+
+# Outros caches temporários
+*.log
